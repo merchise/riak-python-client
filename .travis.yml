@@ -34,6 +34,3 @@ env:
     - RUN_SECURITY=0
 script:
   - ./.travis.sh
-notifications:
-  slack:
-    secure: kU1XcvTAliCWKuYpMWEMbD4qkbmlnWGLAIKbBQjtIh5ZRzISgjdUFzGcC31eHoQFv12LQdp5KAFj0Y1FyEvLxi0W8VeWKpsBGc06ntuECaN9MNHRBzKKclrTMGTfpBWZ5IO17XSUu2lKaNz6GDGRkiZA+sxYAVPfZSXY3u86IuY=
