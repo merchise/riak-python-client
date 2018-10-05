@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 set -o errexit
 
-flake8 --exclude=riak/pb riak *.py
-
 sudo riak-admin security disable
 
 python setup.py test
@@ -16,3 +14,5 @@ then
 else
     echo '[INFO]: security tests run on PB protocol only'
 fi
+
+flake8 --exclude=riak/pb riak *.py
