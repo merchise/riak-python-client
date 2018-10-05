@@ -15,4 +15,4 @@ else
     echo '[INFO]: security tests run on PB protocol only'
 fi
 
-flake8 --exclude=riak/pb riak *.py
+flake8 --exclude=riak/pb --exclude=riak/tests riak *.py
